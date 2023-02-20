@@ -3,10 +3,10 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Cords Mos",
+  "description": "Show current cords in the left bottom",
   "authors": [
-    "Me!"
+    "Sap"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -18,8 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "me.sapits.cordsmod.ShowCords"
     ]
   },
   "mixins": [
